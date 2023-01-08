@@ -1,0 +1,22 @@
+{
+  "name": "dynamicwebsite",
+  "version": "1.0.0",
+  "description": "A demo website using express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanchankk11/DynamicWebsite.git"
+  },
+  "author": "Kanchan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanchankk11/DynamicWebsite/issues"
+  },
+  "homepage": "https://github.com/kanchankk11/DynamicWebsite#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
