@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  {{>headerLinks}}
+    <title>About</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    {{>navbar}}
+
+    <!--! Main Body of the page -->
+    <div class="conatiner-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!--! Left side of the page -->
+            <div class="col-md-6 col-12 main_header_right align-items-center">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top avatar" src="images/avatar.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title text-center text-uppercase font-weight-bold">kanchan nag</h5>
+                      <div class="btn-group w-100" role="group" aria-label="Basic example">
+                        <div class="w-100 d-flex justify-content-center">
+                          <a href="https://github.com/kanchankk11" target="_kk"><i class="fa-brands fa-github mx-2 fa-2xl social-icon"></i></a>
+                          <a href="#"><i class="fa-brands fa-instagram mx-2 fa-2xl social-icon"></i></a>
+                          <a href="#"><i class="fa-brands fa-square-facebook mx-2 fa-2xl social-icon"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!--! Right side of the page -->
+            <div class="col-md-6 col-12 main_header_left">
+                <p>Hey Guys!</p>
+                <h1>Lorem ipsum dolor sit amet, consectetur   <span>adipiscing elit</span> , sed do eiusmod tempor.</h1>
+                <a href="/weather"><button>Check Now</button></a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--! Footer -->
+    {{>footer}}
+  </body>
+</html>

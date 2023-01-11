@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kanchankk11/DynamicWebsite#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "hbs": "^4.2.0"
   }
 }

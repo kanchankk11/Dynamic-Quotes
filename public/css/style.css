@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,200;0,8..30,300;0,8..30,400;0,8..30,900;1,8..30,100;1,8..30,200;1,8..30,300&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -45,4 +45,82 @@ html {
 
 .navbar a:hover {
   color: var(--main-color);
+}
+
+.fa-snowflake{
+  transition: all linear;
+  animation: rot 5s linear infinite;
+}
+
+@keyframes rot {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.main_header_left{
+  display: flex;
+  height: 53rem;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main_header_left p{
+  font-size: 2rem;
+}
+
+.main_header_left h1{
+  font-size: 4rem;
+  margin: 1rem 0 4rem 0;
+  text-transform: capitalize;
+}
+
+.main_header_left h1 span{
+  color: var(--main-color);
+}
+
+.main_header_left a button{
+  border: none;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px #000;
+  padding: 0.8rem 1.8rem;
+  outline: none;
+  border-radius: 2rem;
+}
+
+.main_header_left a button:hover{
+  background-color: darkslategray;
+  color: #fff;
+}
+
+.main_header_right{
+  display: flex;
+  height: 53rem;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main_header_right figure img, .avatar{
+  filter: drop-shadow(0 0.5rem 1rem rgba(0,0,0,0.5));
+}
+#sticky-footer{
+  height: 5rem;
+}
+
+small, .card-body h5{
+  font-size: 1.3rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.social-icon{
+  color: darkslategrey;
+}
+
+.social-icon:hover{
+  color: #000;
 }
