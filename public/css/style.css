@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,200;0,8..30,300;0,8..30,400;0,8..30,900;1,8..30,100;1,8..30,200;1,8..30,300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;500;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -123,4 +125,44 @@ small, .card-body h5{
 
 .social-icon:hover{
   color: #000;
+}
+
+.form-inline input{
+  font-size: 2rem;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.main_weather{
+  width: 100%;
+  height: 53rem;
+  justify-content: center;
+}
+.weather-upper p{
+  font-size: 1.6rem;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #fff;
+}
+
+.weather-upper{
+  border-radius: 10px 10px 0px 0px;
+  background: var(--main-bg);
+}
+
+.weather-lower{
+  background: rgba(0,0,0,0.1);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.weather-lower p {
+  font-size: 1.4rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+#temp{
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+#temp_status{
+  font-size: 2rem;
 }

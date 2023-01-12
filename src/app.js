@@ -25,7 +25,7 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/weather", (req, res) => {
-  res.send("Welcome to weather");
+  res.render("weather");
 });
 
 app.get("*", (req, res) => {
