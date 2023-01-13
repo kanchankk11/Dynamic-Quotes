@@ -1,5 +1,5 @@
-
 # Project Title
+
 Dyanmic Website
 A demo website shows temprature of a city.
 
@@ -8,14 +8,14 @@ A demo website shows temprature of a city.
 #### Get weather info of a city
 
 ```http
-  GET /api/items/${cityName}
+    api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid= <Your API Key>
+
 ```
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `cityName`      | `string` | **Required**. Name of the city |
-
-
+| Parameter  | Type     | Description                    |
+| :--------- | :------- | :----------------------------- |
+| `cityName` | `string` | **Required**. Name of the city |
 
 ## 🚀 About Me
+
 Hi My self Kanchan, a working professional and a backend developer.
