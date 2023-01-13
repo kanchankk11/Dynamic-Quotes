@@ -8,12 +8,7 @@
     <!-- Navbar -->
     {{>navbar}}
     <!--! Main Body of the page -->
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
+    <div id="error"></div>
     <div class="conatiner-fluid main_weather">
       <div class="row pt-5">
         <div class="col-md-10 col-12 mx-auto py-5">
@@ -24,14 +19,14 @@
 
             <div class="weather-info mx-auto w-50 d-flex flex-column pt-5">
                 <div class="weather-upper mx-auto d-flex flex-row justify-content-between w-50 text-uppercase">
-                    <p id="day"class="my-auto p-3">tuesday</p>
-                    <p id="date" class="my-auto p-3">12 JAN</p>
+                    <p id="day"class="my-auto p-3"></p>
+                    <p id="date" class="my-auto p-3"></p>
                 </div>
                 <div class="weather-lower mx-auto w-50 border">
-                    <p id="city" class="my-auto p-3">Kolkata</p>
+                    <p id="city" class="my-auto p-3"></p>
                     <div class="weather-middle d-flex flex-row justify-content-between">
-                        <p id="temp" class="p-3"><span>0</span>°C</p>
-                        <p id="temp_status" class="p-3 pr-4"><i class="fa fa-cloud fa-2xl"></i></p>
+                        <p class="p-3"><span id="temp"></span></p>
+                        <p id="temp_status" class="p-3 pr-4"></p>
                     </div>
                 </div>
             </div>
